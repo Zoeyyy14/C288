@@ -1,0 +1,55 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/OsbWood.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/universal_robots/protos/UR5e.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.13433329686494544 0.1659859048853259 0.9769356400156533 1.3836750280913992
+  position -0.32250974806100174 -6.426607931189111 2.186727091791835
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 3
+  floorAppearance OsbWood {
+  }
+}
+WoodenBox {
+  translation 1.5 -0.4 0.3
+}
+UR5e {
+  hidden translation_1 0 0 0.163
+  hidden rotation_1 0 0 -1 1.2287812309317772e-07
+  hidden linearVelocity_1 2.527713143030841e-05 -3.730262663699293e-06 -1.0828139464757142e-08
+  hidden angularVelocity_1 4.2111356494866393e-07 6.281483805349285e-08 0.00095023987223264
+  hidden translation_2 0 0.138 0
+  hidden rotation_2 0 1 0 1.5709101837013393
+  hidden linearVelocity_2 -0.00012916506543677144 0.00019397759022195366 3.453928851959288e-08
+  hidden angularVelocity_2 7.457128965366272e-07 1.103199302936064e-07 0.0009479031059786574
+  hidden translation_3 0 -0.131 0.425
+  hidden rotation_3 0 -0.9999999999999999 0 0.45996844812811644
+  hidden linearVelocity_3 -4.665538195788822e-06 0.0005199765445451828 -1.0698520000875878e-07
+  hidden angularVelocity_3 1.070658969131559e-06 1.517769675267672e-07 0.000947035378784078
+  hidden translation_4 0 0 0.392
+  hidden rotation_4 0 1 0 0.810790945047842
+  hidden linearVelocity_4 -0.00012461483666904315 0.0007236333063765417 -9.388408337496707e-09
+  hidden angularVelocity_4 1.0294203513412421e-06 1.4372979361846039e-07 0.0009469110804454657
+  hidden translation_5 0 0.127 0
+  hidden rotation_5 0 0 -0.9999999999999999 0.729999767231898
+  hidden linearVelocity_5 -0.000124453555355162 0.0008116410501446585 -2.2178504297003113e-08
+  hidden angularVelocity_5 9.877501788076802e-07 1.362256019842782e-07 0.000946823318409397
+  hidden translation_6 0 0 0.1
+  hidden rotation_6 0 -1 0 0.030000411874526678
+  hidden linearVelocity_6 -0.00017450944744368529 0.0007960720652537587 3.183283579894386e-08
+  hidden angularVelocity_6 9.787695665864032e-07 1.3427654598041996e-07 0.0009468241122778487
+  translation 1.5 -0.4 0.6
+  controller "one_arm_robot"
+}
